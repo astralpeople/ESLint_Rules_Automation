@@ -5,6 +5,9 @@
 //var eslintfile = require('C:/Users/Ilya/Dropbox/eslint/eslint0.19.0.js');
 var fs = require('fs');
 var eslintfile = require('eslint');
+var DOMPArser = require('xmldom').DOMParser;
+var fileInput;
+var fileOutput = {};
 /*var esprima = require('esprima');
 var escope = require('escope');
 var estraverse = require('estraverse');*/
